@@ -9,7 +9,7 @@ end
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.1'
 # Use sqlite3 as the database for Active Record
-gem 'pg'
+gem 'pg', '~> 0.18'
 
 gem 'sqlite3'
 # Use Puma as the app server
@@ -24,6 +24,8 @@ gem 'coffee-rails', '~> 4.2'
 gem 'clrs'
 
 gem 'pony'
+
+gem 'mailgun-ruby', '~>1.1.6'
 
 gem 'figaro'
 # See https://github.com/rails/execjs#readme for more supported runtimes
