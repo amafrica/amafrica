@@ -1,0 +1,1462 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);
+/* line 5, /Users/itsmoeyo/Desktop/projects_2017/portfolio/amafrica/app/assets/stylesheets/amafrica.scss */
+a:hover {
+  background-color: transparent;
+}
+
+/* line 9, /Users/itsmoeyo/Desktop/projects_2017/portfolio/amafrica/app/assets/stylesheets/amafrica.scss */
+.amafrica-container {
+  width: 75%;
+  height: 450px;
+  padding-top: 30vh;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+/* line 21, /Users/itsmoeyo/Desktop/projects_2017/portfolio/amafrica/app/assets/stylesheets/amafrica.scss */
+.amafrica-items {
+  position: relative;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+/* line 31, /Users/itsmoeyo/Desktop/projects_2017/portfolio/amafrica/app/assets/stylesheets/amafrica.scss */
+.nav-logo {
+  height: 250px;
+  margin: auto;
+  display: inline-block;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  position: relative;
+}
+
+/* line 42, /Users/itsmoeyo/Desktop/projects_2017/portfolio/amafrica/app/assets/stylesheets/amafrica.scss */
+.logo {
+  width: 100%;
+  margin: auto;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* line 49, /Users/itsmoeyo/Desktop/projects_2017/portfolio/amafrica/app/assets/stylesheets/amafrica.scss */
+.andrea-text {
+  width: 100%;
+  margin: auto;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 60px;
+  letter-spacing: 2px;
+  padding-top: 10px;
+  padding: 25px;
+  color: #CEC8CA;
+  text-align: center;
+}
+
+/* line 64, /Users/itsmoeyo/Desktop/projects_2017/portfolio/amafrica/app/assets/stylesheets/amafrica.scss */
+.andrea-title {
+  width: 100%;
+  margin: auto;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 400;
+  font-size: 25px;
+  letter-spacing: 2px;
+  padding-top: 3px;
+  color: #CEC8CA;
+  text-align: center;
+}
+
+/* line 78, /Users/itsmoeyo/Desktop/projects_2017/portfolio/amafrica/app/assets/stylesheets/amafrica.scss */
+h1 {
+  width: 100%;
+  display: inline-block;
+  color: #CEC8CA;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 55px;
+  padding: 10px;
+}
+
+/* line 88, /Users/itsmoeyo/Desktop/projects_2017/portfolio/amafrica/app/assets/stylesheets/amafrica.scss */
+h2 {
+  width: 100%;
+  display: inline-block;
+  color: #CEC8CA;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 45px;
+  padding: 10px;
+}
+
+/* line 98, /Users/itsmoeyo/Desktop/projects_2017/portfolio/amafrica/app/assets/stylesheets/amafrica.scss */
+.skills-container {
+  margin-top: 820px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+/* line 110, /Users/itsmoeyo/Desktop/projects_2017/portfolio/amafrica/app/assets/stylesheets/amafrica.scss */
+.icon-container {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 40px;
+}
+
+/* line 122, /Users/itsmoeyo/Desktop/projects_2017/portfolio/amafrica/app/assets/stylesheets/amafrica.scss */
+.training-icon-container {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  margin-top: 40px;
+}
+
+/* line 134, /Users/itsmoeyo/Desktop/projects_2017/portfolio/amafrica/app/assets/stylesheets/amafrica.scss */
+.skill-icon, .training-icon {
+  width: 100px;
+  height: 130px;
+  font-size: 60px;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  align-items: center;
+  padding: 5px;
+  margin: 10px;
+  color: #474442;
+}
+
+/* line 147, /Users/itsmoeyo/Desktop/projects_2017/portfolio/amafrica/app/assets/stylesheets/amafrica.scss */
+.swift-training-icon {
+  font-family: "devicons";
+  text-align: center;
+}
+
+/* line 152, /Users/itsmoeyo/Desktop/projects_2017/portfolio/amafrica/app/assets/stylesheets/amafrica.scss */
+.swift-training-icon:before {
+  content: "\e655";
+}
+
+/* line 156, /Users/itsmoeyo/Desktop/projects_2017/portfolio/amafrica/app/assets/stylesheets/amafrica.scss */
+.skill-title, .training-title {
+  color: #CEC8CA !important;
+  font-size: 15px;
+  display: inline-block;
+  text-align: center;
+}
+
+/* line 163, /Users/itsmoeyo/Desktop/projects_2017/portfolio/amafrica/app/assets/stylesheets/amafrica.scss */
+.about-container {
+  margin-top: 200px;
+}
+
+/* line 167, /Users/itsmoeyo/Desktop/projects_2017/portfolio/amafrica/app/assets/stylesheets/amafrica.scss */
+.about-contents {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+}
+
+/* line 176, /Users/itsmoeyo/Desktop/projects_2017/portfolio/amafrica/app/assets/stylesheets/amafrica.scss */
+.about-text {
+  margin: auto;
+  width: 65%;
+  padding-top: 40px;
+}
+
+/* line 181, /Users/itsmoeyo/Desktop/projects_2017/portfolio/amafrica/app/assets/stylesheets/amafrica.scss */
+.text-column {
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+  color: #363032;
+}
+
+/* line 189, /Users/itsmoeyo/Desktop/projects_2017/portfolio/amafrica/app/assets/stylesheets/amafrica.scss */
+.about-skills {
+  font-size: 1.25em;
+  font-weight: 500;
+  text-align: center;
+  color: #363032;
+}
+
+/* line 196, /Users/itsmoeyo/Desktop/projects_2017/portfolio/amafrica/app/assets/stylesheets/amafrica.scss */
+.portfolio-container {
+  margin: auto;
+  margin-top: 200px;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+}
+
+/* line 208, /Users/itsmoeyo/Desktop/projects_2017/portfolio/amafrica/app/assets/stylesheets/amafrica.scss */
+.contact-container {
+  width: 100%;
+  margin-top: 100px;
+  padding-top: 100px;
+  background-color: #363032;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+/* line 222, /Users/itsmoeyo/Desktop/projects_2017/portfolio/amafrica/app/assets/stylesheets/amafrica.scss */
+#contact-title {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* line 227, /Users/itsmoeyo/Desktop/projects_2017/portfolio/amafrica/app/assets/stylesheets/amafrica.scss */
+form.email_form_actual {
+  width: 100%;
+  margin: auto;
+}
+
+/* line 232, /Users/itsmoeyo/Desktop/projects_2017/portfolio/amafrica/app/assets/stylesheets/amafrica.scss */
+input#email_first_name, input#email_last_name {
+  margin: auto;
+  margin-bottom: 2px;
+  height: 25px;
+  border: 2px solid #CEC8CA;
+}
+
+/* line 239, /Users/itsmoeyo/Desktop/projects_2017/portfolio/amafrica/app/assets/stylesheets/amafrica.scss */
+input#email_email_address {
+  margin: auto;
+  margin-bottom: 2px;
+  width: 100%;
+  height: 25px;
+  border: 2px solid #CEC8CA;
+}
+
+/* line 247, /Users/itsmoeyo/Desktop/projects_2017/portfolio/amafrica/app/assets/stylesheets/amafrica.scss */
+textarea#email_text_area {
+  margin: auto;
+  margin-bottom: 2px;
+  width: 100%;
+  height: 100px;
+  border: 2px solid #CEC8CA;
+}
+
+/* line 259, /Users/itsmoeyo/Desktop/projects_2017/portfolio/amafrica/app/assets/stylesheets/amafrica.scss */
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color: #aca49c;
+  font-size: 0.875em;
+}
+
+/* line 264, /Users/itsmoeyo/Desktop/projects_2017/portfolio/amafrica/app/assets/stylesheets/amafrica.scss */
+input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder {
+  color: #bbb5af;
+}
+
+/* line 268, /Users/itsmoeyo/Desktop/projects_2017/portfolio/amafrica/app/assets/stylesheets/amafrica.scss */
+input::-moz-placeholder, textarea::-moz-placeholder {
+  color: #aca49c;
+  font-size: 0.875em;
+}
+
+/* line 273, /Users/itsmoeyo/Desktop/projects_2017/portfolio/amafrica/app/assets/stylesheets/amafrica.scss */
+input:focus::-moz-placeholder, textarea:focus::-moz-placeholder {
+  color: #bbb5af;
+}
+
+/* line 277, /Users/itsmoeyo/Desktop/projects_2017/portfolio/amafrica/app/assets/stylesheets/amafrica.scss */
+input::placeholder, textarea::placeholder {
+  color: #aca49c;
+  font-size: 0.875em;
+}
+
+/* line 282, /Users/itsmoeyo/Desktop/projects_2017/portfolio/amafrica/app/assets/stylesheets/amafrica.scss */
+input:focus::placeholder, textarea::focus:placeholder {
+  color: #bbb5af;
+}
+
+/* line 286, /Users/itsmoeyo/Desktop/projects_2017/portfolio/amafrica/app/assets/stylesheets/amafrica.scss */
+input::-ms-placeholder, textarea::-ms-placeholder {
+  color: #aca49c;
+  font-size: 0.875em;
+}
+
+/* line 291, /Users/itsmoeyo/Desktop/projects_2017/portfolio/amafrica/app/assets/stylesheets/amafrica.scss */
+input:focus::-ms-placeholder, textarea:focus::-ms-placeholder {
+  color: #bbb5af;
+}
+
+/* on hover placeholder */
+/* line 297, /Users/itsmoeyo/Desktop/projects_2017/portfolio/amafrica/app/assets/stylesheets/amafrica.scss */
+input:hover::-webkit-input-placeholder, textarea:hover::-webkit-input-placeholder {
+  color: #e2dedb;
+  font-size: 0.875em;
+}
+
+/* line 302, /Users/itsmoeyo/Desktop/projects_2017/portfolio/amafrica/app/assets/stylesheets/amafrica.scss */
+input:hover:focus::-webkit-input-placeholder, textarea:hover:focus::-webkit-input-placeholder {
+  color: #cbc6c1;
+}
+
+/* line 306, /Users/itsmoeyo/Desktop/projects_2017/portfolio/amafrica/app/assets/stylesheets/amafrica.scss */
+input:hover::-moz-placeholder, textarea:hover::-moz-placeholder {
+  color: #e2dedb;
+  font-size: 0.875em;
+}
+
+/* line 311, /Users/itsmoeyo/Desktop/projects_2017/portfolio/amafrica/app/assets/stylesheets/amafrica.scss */
+input:hover:focus::-moz-placeholder, textarea:hover:focus::-moz-placeholder {
+  color: #cbc6c1;
+}
+
+/* line 315, /Users/itsmoeyo/Desktop/projects_2017/portfolio/amafrica/app/assets/stylesheets/amafrica.scss */
+input:hover::placeholder, textarea:hover::placeholder {
+  color: #e2dedb;
+  font-size: 0.875em;
+}
+
+/* line 320, /Users/itsmoeyo/Desktop/projects_2017/portfolio/amafrica/app/assets/stylesheets/amafrica.scss */
+input:hover:focus::placeholder, textarea:hover:focus::placeholder {
+  color: #cbc6c1;
+}
+
+/* line 324, /Users/itsmoeyo/Desktop/projects_2017/portfolio/amafrica/app/assets/stylesheets/amafrica.scss */
+input:hover::placeholder, textarea:hover::placeholder {
+  color: #e2dedb;
+  font-size: 0.875em;
+}
+
+/* line 329, /Users/itsmoeyo/Desktop/projects_2017/portfolio/amafrica/app/assets/stylesheets/amafrica.scss */
+input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
+  color: #cbc6c1;
+}
+
+/* line 333, /Users/itsmoeyo/Desktop/projects_2017/portfolio/amafrica/app/assets/stylesheets/amafrica.scss */
+body {
+  font-family: 'Lato', sans-serif;
+  background: #e2dedb;
+  color: #b3aca7;
+}
+
+/* line 339, /Users/itsmoeyo/Desktop/projects_2017/portfolio/amafrica/app/assets/stylesheets/amafrica.scss */
+header {
+  position: relative;
+  margin: 100px 0 25px 0;
+  font-size: 2.3em;
+  text-align: center;
+  letter-spacing: 7px;
+}
+
+/* line 347, /Users/itsmoeyo/Desktop/projects_2017/portfolio/amafrica/app/assets/stylesheets/amafrica.scss */
+#form {
+  position: relative;
+  width: 500px;
+  margin: 50px auto 100px auto;
+}
+
+/* line 353, /Users/itsmoeyo/Desktop/projects_2017/portfolio/amafrica/app/assets/stylesheets/amafrica.scss */
+input {
+  font-family: 'Lato', sans-serif;
+  font-size: 0.875em;
+  width: 501px;
+  height: 50px;
+  padding: 0px 15px 0px 15px;
+  background: transparent;
+  outline: none;
+  color: #726659;
+  border: solid 1px #b3aca7;
+  border-bottom: none;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+
+/* line 373, /Users/itsmoeyo/Desktop/projects_2017/portfolio/amafrica/app/assets/stylesheets/amafrica.scss */
+input:hover {
+  background: #b3aca7;
+  color: #e2dedb;
+}
+
+/* line 378, /Users/itsmoeyo/Desktop/projects_2017/portfolio/amafrica/app/assets/stylesheets/amafrica.scss */
+textarea {
+  width: 501px;
+  max-width: 501px;
+  height: 150px;
+  max-height: 150px;
+  padding: 15px;
+  background: transparent;
+  outline: none;
+  color: #726659;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.875em;
+  border: solid 1px #b3aca7;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+
+/* line 400, /Users/itsmoeyo/Desktop/projects_2017/portfolio/amafrica/app/assets/stylesheets/amafrica.scss */
+textarea:hover {
+  background: #b3aca7;
+  color: #e2dedb;
+}
+
+/* line 405, /Users/itsmoeyo/Desktop/projects_2017/portfolio/amafrica/app/assets/stylesheets/amafrica.scss */
+#submit {
+  width: 502px;
+  padding: 0;
+  margin: 5px 0px 0px 0px;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.875em;
+  color: #b3aca7;
+  outline: none;
+  cursor: pointer;
+  border: solid 1px #b3aca7;
+  border-top: none;
+}
+
+/* line 422, /Users/itsmoeyo/Desktop/projects_2017/portfolio/amafrica/app/assets/stylesheets/amafrica.scss */
+#submit:hover {
+  color: #e2dedb;
+}
+/*!
+ *  Devicons 1.8.0 made by Theodore Vorillas / http://vorillaz.com 
+ */
+
+@font-face {
+  font-family: 'devicons';
+  src: url("../fonts/devicons.eot?xqxft6");
+  src: url("../fonts/devicons.eot?#iefixxqxft6") format("embedded-opentype"), url("../fonts/devicons.woff?xqxft6") format("woff"), url("../fonts/devicons.ttf?xqxft6") format("truetype"), url("../fonts/devicons.svg?xqxft6#devicons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.devicons {
+  font-family: 'devicons';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.devicons-git:before {
+  content: "\e602";
+}
+
+.devicons-git_compare:before {
+  content: "\e628";
+}
+
+.devicons-git_branch:before {
+  content: "\e625";
+}
+
+.devicons-git_commit:before {
+  content: "\e629";
+}
+
+.devicons-git_pull_request:before {
+  content: "\e626";
+}
+
+.devicons-git_merge:before {
+  content: "\e627";
+}
+
+.devicons-bitbucket:before {
+  content: "\e603";
+}
+
+.devicons-github_alt:before {
+  content: "\e608";
+}
+
+.devicons-github_badge:before {
+  content: "\e609";
+}
+
+.devicons-github:before {
+  content: "\e60a";
+}
+
+.devicons-github_full:before {
+  content: "\e617";
+}
+
+.devicons-java:before {
+  content: "\e638";
+}
+
+.devicons-ruby:before {
+  content: "\e639";
+}
+
+.devicons-scala:before {
+  content: "\e637";
+}
+
+.devicons-python:before {
+  content: "\e63c";
+}
+
+.devicons-go:before {
+  content: "\e624";
+}
+
+.devicons-ruby_on_rails:before {
+  content: "\e63b";
+}
+
+.devicons-django:before {
+  content: "\e61d";
+}
+
+.devicons-markdown:before {
+  content: "\e63e";
+}
+
+.devicons-php:before {
+  content: "\e63d";
+}
+
+.devicons-mysql:before {
+  content: "\e604";
+}
+
+.devicons-streamline:before {
+  content: "\e605";
+}
+
+.devicons-database:before {
+  content: "\e606";
+}
+
+.devicons-laravel:before {
+  content: "\e63f";
+}
+
+.devicons-javascript:before {
+  content: "\e64e";
+}
+
+.devicons-angular:before {
+  content: "\e653";
+}
+
+.devicons-backbone:before {
+  content: "\e652";
+}
+
+.devicons-coffeescript:before {
+  content: "\e651";
+}
+
+.devicons-jquery:before {
+  content: "\e650";
+}
+
+.devicons-modernizr:before {
+  content: "\e620";
+}
+
+.devicons-jquery_ui:before {
+  content: "\e654";
+}
+
+.devicons-ember:before {
+  content: "\e61b";
+}
+
+.devicons-dojo:before {
+  content: "\e61c";
+}
+
+.devicons-nodejs:before {
+  content: "\e619";
+}
+
+.devicons-nodejs_small:before {
+  content: "\e618";
+}
+
+.devicons-javascript_shield:before {
+  content: "\e64f";
+}
+
+.devicons-bootstrap:before {
+  content: "\e647";
+}
+
+.devicons-sass:before {
+  content: "\e64b";
+}
+
+.devicons-css3_full:before {
+  content: "\e64a";
+}
+
+.devicons-css3:before {
+  content: "\e649";
+}
+
+.devicons-html5:before {
+  content: "\e636";
+}
+
+.devicons-html5_multimedia:before {
+  content: "\e632";
+}
+
+.devicons-html5_device_access:before {
+  content: "\e633";
+}
+
+.devicons-html5_3d_effects:before {
+  content: "\e635";
+}
+
+.devicons-html5_connectivity:before {
+  content: "\e634";
+}
+
+.devicons-ghost_small:before {
+  content: "\e614";
+}
+
+.devicons-ghost:before {
+  content: "\e61f";
+}
+
+.devicons-magento:before {
+  content: "\e640";
+}
+
+.devicons-joomla:before {
+  content: "\e641";
+}
+
+.devicons-jekyll_small:before {
+  content: "\e60d";
+}
+
+.devicons-drupal:before {
+  content: "\e642";
+}
+
+.devicons-wordpress:before {
+  content: "\e60b";
+}
+
+.devicons-grunt:before {
+  content: "\e64c";
+}
+
+.devicons-bower:before {
+  content: "\e64d";
+}
+
+.devicons-npm:before {
+  content: "\e61e";
+}
+
+.devicons-yahoo_small:before {
+  content: "\e62b";
+}
+
+.devicons-yahoo:before {
+  content: "\e615";
+}
+
+.devicons-bing_small:before {
+  content: "\e600";
+}
+
+.devicons-windows:before {
+  content: "\e60f";
+}
+
+.devicons-linux:before {
+  content: "\e612";
+}
+
+.devicons-ubuntu:before {
+  content: "\e63a";
+}
+
+.devicons-android:before {
+  content: "\e60e";
+}
+
+.devicons-apple:before {
+  content: "\e611";
+}
+
+.devicons-appstore:before {
+  content: "\e613";
+}
+
+.devicons-phonegap:before {
+  content: "\e630";
+}
+
+.devicons-blackberry:before {
+  content: "\e623";
+}
+
+.devicons-stackoverflow:before {
+  content: "\e610";
+}
+
+.devicons-techcrunch:before {
+  content: "\e62c";
+}
+
+.devicons-codrops:before {
+  content: "\e62f";
+}
+
+.devicons-css_tricks:before {
+  content: "\e601";
+}
+
+.devicons-smashing_magazine:before {
+  content: "\e62d";
+}
+
+.devicons-netmagazine:before {
+  content: "\e62e";
+}
+
+.devicons-codepen:before {
+  content: "\e616";
+}
+
+.devicons-cssdeck:before {
+  content: "\e62a";
+}
+
+.devicons-hackernews:before {
+  content: "\e61a";
+}
+
+.devicons-dropbox:before {
+  content: "\e607";
+}
+
+.devicons-google_drive:before {
+  content: "\e631";
+}
+
+.devicons-visualstudio:before {
+  content: "\e60c";
+}
+
+.devicons-unity_small:before {
+  content: "\e621";
+}
+
+.devicons-raspberry_pi:before {
+  content: "\e622";
+}
+
+.devicons-chrome:before {
+  content: "\e643";
+}
+
+.devicons-ie:before {
+  content: "\e644";
+}
+
+.devicons-firefox:before {
+  content: "\e645";
+}
+
+.devicons-opera:before {
+  content: "\e646";
+}
+
+.devicons-safari:before {
+  content: "\e648";
+}
+
+.devicons-swift:before {
+  content: "\e655";
+}
+
+.devicons-symfony:before {
+  content: "\e656";
+}
+
+.devicons-symfony_badge:before {
+  content: "\e657";
+}
+
+.devicons-less:before {
+  content: "\e658";
+}
+
+.devicons-stylus:before {
+  content: "\e659";
+}
+
+.devicons-trello:before {
+  content: "\e65a";
+}
+
+.devicons-atlassian:before {
+  content: "\e65b";
+}
+
+.devicons-jira:before {
+  content: "\e65c";
+}
+
+.devicons-envato:before {
+  content: "\e65d";
+}
+
+.devicons-snap_svg:before {
+  content: "\e65e";
+}
+
+.devicons-raphael:before {
+  content: "\e65f";
+}
+
+.devicons-google_analytics:before {
+  content: "\e660";
+}
+
+.devicons-compass:before {
+  content: "\e661";
+}
+
+.devicons-onedrive:before {
+  content: "\e662";
+}
+
+.devicons-gulp:before {
+  content: "\e663";
+}
+
+.devicons-atom:before {
+  content: "\e664";
+}
+
+.devicons-cisco:before {
+  content: "\e665";
+}
+
+.devicons-nancy:before {
+  content: "\e666";
+}
+
+.devicons-clojure:before {
+  content: "\e668";
+}
+
+.devicons-clojure_alt:before {
+  content: "\e66a";
+}
+
+.devicons-perl:before {
+  content: "\e669";
+}
+
+.devicons-celluloid:before {
+  content: "\e66b";
+}
+
+.devicons-w3c:before {
+  content: "\e66c";
+}
+
+.devicons-redis:before {
+  content: "\e66d";
+}
+
+.devicons-postgresql:before {
+  content: "\e66e";
+}
+
+.devicons-webplatform:before {
+  content: "\e66f";
+}
+
+.devicons-jenkins:before {
+  content: "\e667";
+}
+
+.devicons-requirejs:before {
+  content: "\e670";
+}
+
+.devicons-opensource:before {
+  content: "\e671";
+}
+
+.devicons-typo3:before {
+  content: "\e672";
+}
+
+.devicons-uikit:before {
+  content: "\e673";
+}
+
+.devicons-doctrine:before {
+  content: "\e674";
+}
+
+.devicons-groovy:before {
+  content: "\e675";
+}
+
+.devicons-nginx:before {
+  content: "\e676";
+}
+
+.devicons-haskell:before {
+  content: "\e677";
+}
+
+.devicons-zend:before {
+  content: "\e678";
+}
+
+.devicons-gnu:before {
+  content: "\e679";
+}
+
+.devicons-yeoman:before {
+  content: "\e67a";
+}
+
+.devicons-heroku:before {
+  content: "\e67b";
+}
+
+.devicons-debian:before {
+  content: "\e67d";
+}
+
+.devicons-travis:before {
+  content: "\e67e";
+}
+
+.devicons-dotnet:before {
+  content: "\e67f";
+}
+
+.devicons-codeigniter:before {
+  content: "\e680";
+}
+
+.devicons-javascript_badge:before {
+  content: "\e681";
+}
+
+.devicons-yii:before {
+  content: "\e682";
+}
+
+.devicons-msql_server:before {
+  content: "\e67c";
+}
+
+.devicons-composer:before {
+  content: "\e683";
+}
+
+.devicons-krakenjs_badge:before {
+  content: "\e684";
+}
+
+.devicons-krakenjs:before {
+  content: "\e685";
+}
+
+.devicons-mozilla:before {
+  content: "\e686";
+}
+
+.devicons-firebase:before {
+  content: "\e687";
+}
+
+.devicons-sizzlejs:before {
+  content: "\e688";
+}
+
+.devicons-creativecommons:before {
+  content: "\e689";
+}
+
+.devicons-creativecommons_badge:before {
+  content: "\e68a";
+}
+
+.devicons-mitlicence:before {
+  content: "\e68b";
+}
+
+.devicons-senchatouch:before {
+  content: "\e68c";
+}
+
+.devicons-bugsense:before {
+  content: "\e68d";
+}
+
+.devicons-extjs:before {
+  content: "\e68e";
+}
+
+.devicons-mootools_badge:before {
+  content: "\e68f";
+}
+
+.devicons-mootools:before {
+  content: "\e690";
+}
+
+.devicons-ruby_rough:before {
+  content: "\e691";
+}
+
+.devicons-komodo:before {
+  content: "\e692";
+}
+
+.devicons-coda:before {
+  content: "\e693";
+}
+
+.devicons-bintray:before {
+  content: "\e694";
+}
+
+.devicons-terminal:before {
+  content: "\e695";
+}
+
+.devicons-code:before {
+  content: "\e696";
+}
+
+.devicons-responsive:before {
+  content: "\e697";
+}
+
+.devicons-dart:before {
+  content: "\e698";
+}
+
+.devicons-aptana:before {
+  content: "\e699";
+}
+
+.devicons-mailchimp:before {
+  content: "\e69a";
+}
+
+.devicons-netbeans:before {
+  content: "\e69b";
+}
+
+.devicons-dreamweaver:before {
+  content: "\e69c";
+}
+
+.devicons-brackets:before {
+  content: "\e69d";
+}
+
+.devicons-eclipse:before {
+  content: "\e69e";
+}
+
+.devicons-cloud9:before {
+  content: "\e69f";
+}
+
+.devicons-scrum:before {
+  content: "\e6a0";
+}
+
+.devicons-prolog:before {
+  content: "\e6a1";
+}
+
+.devicons-terminal_badge:before {
+  content: "\e6a2";
+}
+
+.devicons-code_badge:before {
+  content: "\e6a3";
+}
+
+.devicons-mongodb:before {
+  content: "\e6a4";
+}
+
+.devicons-meteor:before {
+  content: "\e6a5";
+}
+
+.devicons-meteorfull:before {
+  content: "\e6a6";
+}
+
+.devicons-fsharp:before {
+  content: "\e6a7";
+}
+
+.devicons-rust:before {
+  content: "\e6a8";
+}
+
+.devicons-ionic:before {
+  content: "\e6a9";
+}
+
+.devicons-sublime:before {
+  content: "\e6aa";
+}
+
+.devicons-appcelerator:before {
+  content: "\e6ab";
+}
+
+.devicons-asterisk:before {
+  content: "\e6ac";
+}
+
+.devicons-aws:before {
+  content: "\e6ad";
+}
+
+.devicons-digital-ocean:before {
+  content: "\e6ae";
+}
+
+.devicons-dlang:before {
+  content: "\e6af";
+}
+
+.devicons-docker:before {
+  content: "\e6b0";
+}
+
+.devicons-erlang:before {
+  content: "\e6b1";
+}
+
+.devicons-google-cloud-platform:before {
+  content: "\e6b2";
+}
+
+.devicons-grails:before {
+  content: "\e6b3";
+}
+
+.devicons-illustrator:before {
+  content: "\e6b4";
+}
+
+.devicons-intellij:before {
+  content: "\e6b5";
+}
+
+.devicons-materializecss:before {
+  content: "\e6b6";
+}
+
+.devicons-openshift:before {
+  content: "\e6b7";
+}
+
+.devicons-photoshop:before {
+  content: "\e6b8";
+}
+
+.devicons-rackspace:before {
+  content: "\e6b9";
+}
+
+.devicons-react:before {
+  content: "\e6ba";
+}
+
+.devicons-redhat:before {
+  content: "\e6bb";
+}
+
+.devicons-scriptcs:before {
+  content: "\e6bc";
+}
+
+.devicons-sqllite:before {
+  content: "\e6c4";
+}
+
+.devicons-vim:before {
+  content: "\e6c5";
+}
+/* line 1, /Users/itsmoeyo/Desktop/projects_2017/portfolio/amafrica/app/assets/stylesheets/scaffolds.scss */
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  margin: 33px;
+}
+
+/* line 10, /Users/itsmoeyo/Desktop/projects_2017/portfolio/amafrica/app/assets/stylesheets/scaffolds.scss */
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  margin: 33px;
+}
+
+/* line 17, /Users/itsmoeyo/Desktop/projects_2017/portfolio/amafrica/app/assets/stylesheets/scaffolds.scss */
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+/* line 36, /Users/itsmoeyo/Desktop/projects_2017/portfolio/amafrica/app/assets/stylesheets/scaffolds.scss */
+th {
+  padding-bottom: 5px;
+}
+
+/* line 40, /Users/itsmoeyo/Desktop/projects_2017/portfolio/amafrica/app/assets/stylesheets/scaffolds.scss */
+td {
+  padding-bottom: 7px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+/* line 47, /Users/itsmoeyo/Desktop/projects_2017/portfolio/amafrica/app/assets/stylesheets/scaffolds.scss */
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+
+/* line 52, /Users/itsmoeyo/Desktop/projects_2017/portfolio/amafrica/app/assets/stylesheets/scaffolds.scss */
+#notice {
+  color: green;
+}
+
+/* line 56, /Users/itsmoeyo/Desktop/projects_2017/portfolio/amafrica/app/assets/stylesheets/scaffolds.scss */
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+/* line 62, /Users/itsmoeyo/Desktop/projects_2017/portfolio/amafrica/app/assets/stylesheets/scaffolds.scss */
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+/* line 70, /Users/itsmoeyo/Desktop/projects_2017/portfolio/amafrica/app/assets/stylesheets/scaffolds.scss */
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  margin-bottom: 0;
+  background-color: #c00;
+  color: #fff;
+}
+/* line 81, /Users/itsmoeyo/Desktop/projects_2017/portfolio/amafrica/app/assets/stylesheets/scaffolds.scss */
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+
+/* line 87, /Users/itsmoeyo/Desktop/projects_2017/portfolio/amafrica/app/assets/stylesheets/scaffolds.scss */
+label {
+  display: block;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Proxima Nova;
+}
+
+html, body {
+  /*background: url("./whiteboard1.jpeg");*/
+  /*background: url("./desk2.jpg");*/
+  /*background: url("./desk8.jpg");*/
+  height: 1080px;
+  width: 100%;
+  /*min-width: 1024px;*/
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  margin: 0;
+  border: 0;
+  /*opacity: 0.7;*/
+  background-image:
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url("./desk8.jpg");
+}
+
+input, textarea {
+  display: block;
+}
+
+.nav-bar {
+  height: 75px;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.nav-container {
+  height: 75px;
+  width: 80%;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 15px;
+}
+
+.nav-menu {
+  height: 75px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+a.nav-items {
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #CEC8CA;
+  display: inline-block;
+  padding: 10px;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+/*li {
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #CEC8CA;
+  display: inline-block;
+  padding: 10px;
+  font-size: 18px;
+  letter-spacing: 1px;
+}*/
+
+.alt-nav-logo {
+  background-image: url('/assets/Andrea_Africa_Logo_alt-colour_Solo.png');
+  width: 50px;
+  float: left;
+}
+
+.alt-nav {
+  background-color: #333333;
+  /*background-color: #363032;*/
+  transition: 0.2s all linear;
+}
+
+.under-construction-container {
+  width: 50%;
+  height: 100px;
+  margin: auto;
+  margin-top: 250px;
+  border: solid 2px white;
+}
+
+.under-construction-contents {
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 35px;
+}
+
+footer {
+  background: #CEC8CA;
+  color: white;
+  text-align: center;
+  width: 100%;
+  height: 75px;
+  padding: 25px 0;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <%= favicon_link_tag 'Andrea_Africa_Favicon_Logo.ico' %>
+  <head>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
+    <link href='//cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="/css/devicons.css">
+    <title>Andrea Africa</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <div class="nav-bar">
+      <div class="nav-container">
+        <div class="nav-menu">
+          <!-- <a href="/" class="alt-logo">
+            <img src="./assets/Andrea_Africa_Logo_alt-colour_Solo.png" class="alt-nav-logo">
+          </a> -->
+          <a href="/#skills-link-target" class="nav-items">Skills</a>
+          <a href="/#about-link-target" class="nav-items">About</a>
+          <a href="/#portfolio-link-target" class="nav-items">Portfolio</a>
+          <a href="/#contact-link-target" class="nav-items">Contact</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="under-construction-container">
+      <div class="under-construction-contents">
+        <span>
+          Under Construction
+        </span>
+      </div>
+    </div> -->
+    <%= yield %>
+  </body>
+  <footer>
+    &copy; Andrea Africa 2017
+  </footer>
+</html>

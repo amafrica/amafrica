@@ -1,0 +1,31 @@
+<!-- <div class="email_form">
+  <%= form_for "email", url: send_email_url, html: {class: "email_form_actual"} do |f|%>
+  <%= f.text_field :first_name, placeholder: "First name", class: "email_formatting half_size" %>
+  <%= f.text_field :last_name, placeholder: "Last name", class: "email_formatting half_size" %><br />
+  <%= f.email_field :email_address, placeholder: "Email Address", class: "email_formatting email_stretch" %><br />
+  <%= f.text_area :message, placeholder: "Message", class: "email_formatting email_stretch", id: "email_text_area"%><br />
+  <%= f.submit "Send Email", {:'data-disable-with' => false, id: "email_submit"} %>
+  <% end %>
+</div> -->
+
+<div class="form-container">
+  <form id="form" class="topBefore">
+    <%= form_for @message, url: create_message_url do |f| %>
+    <%= notice %>
+    <%= @message.errors.full_messages.join(', ') %>
+
+    <div id="name">
+      <%= f.text_field :name, placeholder: 'Name' %>
+    </div>
+    <div id="email">
+      <%= f.email_field :email, placeholder: 'Email' %>
+    </div>
+    <div id="message">
+      <%= f.text_area :body, placeholder: 'Message' %>
+    </div>
+    <div id="submit">
+      <%= f.submit 'Submit' %>
+    </div>
+    <% end %>
+  </form>
+</div>

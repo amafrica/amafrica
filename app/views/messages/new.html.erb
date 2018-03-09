@@ -1,0 +1,19 @@
+<form id="form" class="topBefore">
+  <%= form_for @message, url: create_message_url do |f| %>
+  <%= notice %>
+  <%= @message.errors.full_messages.join(', ') %>
+
+  <div id="name">
+    <%= f.text_field :name, placeholder: 'Name' %>
+  </div>
+  <div id="email">
+    <%= f.email_field :email, placeholder: 'Email' %>
+  </div>
+  <div id="message">
+    <%= f.text_area :body, placeholder: 'Message' %>
+  </div>
+  <div id="submit">
+    <%= f.submit 'Submit' %>
+  </div>
+  <% end %>
+</form>
