@@ -28,6 +28,9 @@ gem 'pony'
 gem 'mailgun-ruby', '~>1.1.6'
 
 gem 'figaro'
+
+gem 'heroku_secrets', github: 'alexpeattie/heroku_secrets'
+
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 

@@ -40,10 +40,6 @@ html, body {
         url("./desk8.jpg");
 }
 
-input, textarea {
-  display: block;
-}
-
 .nav-bar {
   height: 75px;
   position: fixed;
@@ -90,15 +86,8 @@ a.nav-items {
   letter-spacing: 1px;
 }*/
 
-.alt-nav-logo {
-  background-image: url('/assets/Andrea_Africa_Logo_alt-colour_Solo.png');
-  width: 50px;
-  float: left;
-}
-
 .alt-nav {
   background-color: #333333;
-  /*background-color: #363032;*/
   transition: 0.2s all linear;
 }
 
